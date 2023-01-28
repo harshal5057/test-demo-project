@@ -39,6 +39,8 @@
 // console.log(text3)
 // console.log(text4)
 
+
+
 // let x="abc";
 // let y="abc"
 // let z= new String("abc")
@@ -52,10 +54,10 @@ txt="harshal sonvane"
 // console.log(txt.length)?
 
 console.log(txt.slice(3,3))
-// console.log(txt.slice(7))
-// console.log(txt.slice(6))
-// console.log(txt.slice(-8,-4))
-// console.log(txt.substring(7,13))
+ console.log(txt.slice(7))
+ console.log(txt.slice(6))
+ console.log(txt.slice(-8,-4))
+ console.log(txt.substring(7,13))
 
 
 
