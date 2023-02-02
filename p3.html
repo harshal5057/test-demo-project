@@ -1,0 +1,72 @@
+<!-- <html>
+<body>
+
+<h1>JavaScript Variables</h1>
+
+<p>Strings are written with quotes.</p>
+<p>Numbers are written without quotes.</p>
+
+<p id="demo"></p>
+
+<script>
+const pi = 3.14;
+let person = "John Doe";
+let answer = 'Yes I am!';
+
+document.getElementById("demo").innerHTML =
+pi + "<br>" + person + "<br>" + answer;
+</script>
+
+</body>
+</html> -->
+<!-- <html>
+<head>
+    <body>
+<div class="container">
+<p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint placeat voluptate sequi praesentium ex alias architecto sed sapiente accusamus. Dolor architecto quod iusto veniam quas dolores esse facere quis ad.</p>
+</div>
+<button id="btn" onclick="but()">Add</button>
+<script>
+function but()
+{
+    let btn=document.getElementById('btn');
+    btn.addEventListener('mouseclick',function run(){
+        alert('mouse btn clicked')
+
+    });
+    
+    let para =document.getElementById('para');
+    para.addEventListener('mouseover',function run(){
+        alert('mouse inside')
+
+    });
+    if(para.style.display != 'none')
+    {
+        para.style.display = 'none'
+    }
+    else
+    {
+    para.style.display = 'block'
+    }
+}
+
+</script>
+</body>
+</head>
+</html> -->
+
+<html>
+  <body>
+    <p id="demo"></p>
+    <script>
+      let header = `hello good morning`;
+      let tags = ["literals", "abc", "vrt"];
+      let html = `<h1>${header}</h1>`;
+      for (const x of tags) {
+        html += `<li>${x}</li>`;
+      }
+      html += `</ul>`;
+      document.getElementById("demo").innerHTML = html;
+    </script>
+  </body>
+</html>
